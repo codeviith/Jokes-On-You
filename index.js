@@ -1,22 +1,44 @@
-fetch("https://official-joke-api.appspot.com/random_joke")
+fetch("http://localhost:3500/Jokes")
 .then(response => response.json())
-.then(data => {
-    data.forEach(joke => {
-        
-    })
-})
+.then(jokes => {
+    jokes.forEach(joke => {
+        const id = joke.id
+        // console.log(id)
+        generateJokeButton.addEventListener("click", () => {
+            let num = randomId();
+            
+            if(num === id) {
+                return displayJokeSetup(joke);
+            }
+
+            const answerButton = document.createElement("button");
+        });
+    });   
+});
+
+const displayedJoke = document.getElementById("joke-setup");
+const generateJokeButton = document.getElementById("generate-joke");
 
 
-
-let likeCount;
-
-function totalLikeCounts () {
-
+function randomId() {
+    return Math.ceil(Math.random() * 20);
 }
 
-const likeButtonTag = document.createElement("button");
-likeButtonTag.textContent = "Like"
+function displayJokeSetup (joke) {
+    displayedJoke.textContent = joke.setup;
+}
 
 
-const totalNumOfLikes = document.createElement("span");
-totalNumOfLikes.textContent = likeCount + "likes"
+
+
+
+
+// let likeCount;
+
+// const likeButtonTag = document.createElement("button");
+// likeButtonTag.textContent = "Like"
+
+// document.body.appendChild(likeButtonTag);
+
+// const totalNumOfLikes = document.createElement("span");
+// totalNumOfLikes.textContent = likeCount + "Likes"

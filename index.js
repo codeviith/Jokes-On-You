@@ -12,4 +12,15 @@ buttonTag.textContent = "Generate Joke";
 
 document.body.appendChild(buttonTag);
 
+let likeCount;
 
+function totalLikeCounts () {
+
+}
+
+const likeButtonTag = document.createElement("button");
+likeButtonTag.textContent = "Like"
+
+
+const totalNumOfLikes = document.createElement("span");
+totalNumOfLikes.textContent = likeCount + "likes"

@@ -1,16 +1,18 @@
-###Jokes On YOU!
+# Jokes On YOU!
 
-#Introduction
+## Introduction
 
-- This website will tell us a random joke whenever we pressed on the button. 
-
-#Setup
-
-- when the button is pressed joke appears
+<li>This website will tell us a random joke whenever we pressed on the button.</li>
 
 
-- Then clicking on the joke with make the answer appear 
+# Setup
+
+<li>When the button is pressed joke appears</li>
+
+<li>Then clicking on the joke with make the answer appear</li>
+
+<li>Like button on the the side for users</li>
 
 
-- Like button on the the side for users 
-
+# Resources
+<li>https://official-joke-api.appspot.com/random_joke</li>

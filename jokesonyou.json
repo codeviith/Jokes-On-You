@@ -1,0 +1,106 @@
+{
+    "Jokes": [
+        {
+            "setup": "When is a door not a door?",
+            "punchline": "When it's ajar.",
+            "id": 1
+        },
+        {
+            "setup": "What did the judge say to the dentist?",
+            "punchline": "Do you swear to pull the tooth, the whole tooth and nothing but the tooth?",
+            "id": 2
+        },
+        {
+            "setup": "What does a pirate pay for his corn?",
+            "punchline": "A buccaneer!",
+            "id": 3
+        },
+        {
+            "setup": "How much does a hipster weigh?",
+            "punchline": "An instagram.",
+            "id": 4
+        },
+        {
+            "setup": "Why did the rooster cross the road?",
+            "punchline": "He heard that the chickens at KFC were pretty hot.",
+            "id": 5
+        },
+        {
+            "setup": "What do you call someone with no nose?",
+            "punchline": "Nobody knows.",
+            "id": 6
+        },
+        {
+            "setup": "Did you hear about the Mexican train killer?",
+            "punchline": "He had loco motives",
+            "id": 7
+        },
+        {
+            "setup": "Two guys walk into a bar . . .",
+            "punchline": "The first guy says \"Ouch!\" and the second says \"Yeah, I didn't see it either.\"",
+            "id": 8
+        },
+        {
+            "setup": "What goes after USA?",
+            "punchline": "USB.",
+            "id": 9
+        },
+        {
+            "setup": "Why did the scarecrow win an award?",
+            "punchline": "Because he was outstanding in his field.",
+            "id": 10
+        },
+        {
+            "setup": "What creature is smarter than a talking parrot?",
+            "punchline": "A spelling bee.",
+            "id": 11
+        },
+        {
+            "setup": "Where do hamburgers go to dance?",
+            "punchline": "The meat-ball.",
+            "id": 12
+        },
+        {
+            "setup": "Why are pirates called pirates?",
+            "punchline": "Because they arrr!",
+            "id": 13
+        },
+        {
+            "setup": "Why do chicken coops only have two doors?",
+            "punchline": "Because if they had four, they would be chicken sedans",
+            "id": 14
+        },
+        {
+            "setup": "What's the best thing about a Boolean?",
+            "punchline": "Even if you're wrong, you're only off by a bit.",
+            "id": 15
+        },
+        {
+            "setup": "What does a female snake use for support?",
+            "punchline": "A co-Bra!",
+            "id": 16
+        },
+        {
+            "setup": "How many kids with ADD does it take to change a lightbulb?",
+            "punchline": "Let's go ride bikes!",
+            "id": 17
+        },
+        {
+            "setup": "Lady: How do I spread love in this cruel world?",
+            "punchline": "Random Dude: [...💘]",
+            "id": 18
+        },
+        {
+            "setup": "Why did the cookie cry?",
+            "punchline": "Because his mother was a wafer so long",
+            "id": 19
+        },
+        {
+            
+            "setup": "Why can't bicycles stand on their own?",
+            "punchline": "They are two tired",
+            "id": 20
+
+        }
+    ]
+}

@@ -12,6 +12,9 @@ fetch("http://localhost:3500/Jokes")
             }
 
             const answerButton = document.createElement("button");
+            answerButton.textContent = "Show Punchline";
+
+            document.body.appendChild(answerButton);
         });
     });   
 });

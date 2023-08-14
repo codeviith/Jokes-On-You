@@ -10,25 +10,41 @@ fetch("http://localhost:3500/Jokes")
             if(num === id) {
                 return displayJokeSetup(joke);
             }
+            
 
-            const answerButton = document.createElement("button");
-            answerButton.textContent = "Show Punchline";
+            displayedJoke.textContent = currentJoke.textContent;
+            punchlineBox.appendChild(displayedJoke)
 
-            document.body.appendChild(answerButton);
+
         });
     });   
 });
 
-const displayedJoke = document.getElementById("joke-setup");
-const generateJokeButton = document.getElementById("generate-joke");
+const currentJoke = document.getElementById("joke-setup");
+const generateJokeButton = document.getElementById("generate-joke-button");
+const generateJokeDiv = document.getElementById("generate-joke");
+const answerButton = document.createElement("button");
 
+
+
+const punchlineBox = document.getElementById("punchline-box");
+answerButton.textContent = "Show Punchline";
+generateJokeDiv.appendChild(answerButton);
+
+answerButton.addEventListener("click", () => {
+    
+})
+
+// function displayPunchline(joke) {
+//     .textContent = joke.punchline;
+// }
 
 function randomId() {
     return Math.ceil(Math.random() * 20);
 }
 
 function displayJokeSetup (joke) {
-    displayedJoke.textContent = joke.setup;
+    currentJoke.textContent = joke.setup;
 }
 
 

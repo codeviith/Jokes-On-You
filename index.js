@@ -7,10 +7,6 @@ fetch("https://official-joke-api.appspot.com/random_joke")
 })
 
 
-const buttonTag = document.createElement("button");
-buttonTag.textContent = "Generate Joke";
-
-document.body.appendChild(buttonTag);
 
 let likeCount;
 

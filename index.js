@@ -50,7 +50,7 @@ fetch("http://localhost:3500/Jokes")
 
 
 function randomId() {
-    let random = Math.ceil(Math.random() * 20);
+    let random = Math.ceil(Math.random() * 35);
     return random;
 }
 

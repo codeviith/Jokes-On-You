@@ -42,12 +42,6 @@ fetch("http://localhost:3500/Jokes")
 });
 
 
-// jokesBoxForm.addEventListener("submit", (e) => {
-//     e.preventDefault();
-
-
-// })
-
 function randomId() {
     let random = Math.ceil(Math.random() * 20);
     return random;

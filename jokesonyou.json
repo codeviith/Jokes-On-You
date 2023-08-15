@@ -96,11 +96,84 @@
             "id": 19
         },
         {
-            
             "setup": "Why can't bicycles stand on their own?",
             "punchline": "They are two tired",
             "id": 20
-
+        },
+        {
+            "setup": "What happens to a frog's car when it breaks down?",
+            "punchline": "It gets toad.",
+            "id": 21
+        },
+        {
+            "setup": "I can't tell if i like this blender...",
+            "punchline": "It keeps giving me mixed results.",
+            "id": 22
+        },
+        {
+            "setup": "Why can't your nose be 12 inches long?",
+            "punchline": "Because then it'd be a foot!",
+            "id": 23
+        },
+        {
+            "setup": "Did you hear the story about the cheese that saved the world?",
+            "punchline": "It was legend dairy.",
+            "id": 24
+        },
+        {
+            "setup": "What is the hardest part about sky diving?",
+            "punchline": "The ground.",
+            "id": 25
+        },
+        {
+            "setup": "When does a joke become a dad joke?",
+            "punchline": "When it becomes apparent.",
+            "id": 26
+        },
+        {
+            "setup": "What did the Buffalo say to his little boy when he dropped him off at school?",
+            "punchline": "Bison.",
+            "id": 27
+        },
+        {
+            "setup": "What do you call a pig with three eyes?",
+            "punchline": "Piiig",
+            "id": 28
+        },
+        {
+            "setup": "What did the router say to the doctor?",
+            "punchline": "It hurts when IP.",
+            "id": 29
+        },
+        {
+            "setup": "Why did the half blind man fall in the well?",
+            "punchline": "Because he couldn't see that well!",
+            "id": 30
+        },
+        {
+            "setup": "What do you give to a lemon in need?",
+            "punchline": "Lemonaid.",
+            "id": 31
+        },
+        {
+            "setup": "Have you ever heard of a music group called Cellophane?",
+            "punchline": "They mostly wrap.",
+            "id": 32
+        },
+        {
+            "setup": "What do you call an elephant that doesn’t matter?",
+            "punchline": "An irrelephant.",
+            "id": 33
+        },
+        {
+            "setup": "What did the pirate say on his 80th birthday?",
+            "punchline": "Aye Matey!",
+            "id": 34
+        },
+        {
+            "setup": "If you see a robbery at an Apple Store...",
+            "punchline": "Does that make you an iWitness?",
+            "id": 35
         }
     ]
 }

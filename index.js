@@ -1,51 +1,63 @@
-fetch("http://localhost:3500/Jokes")
-.then(response => response.json())
-.then(jokes => {
-    generateJokeButton.addEventListener("click", () => {
-        jokes.find(joke => {
-            if (randomId() === joke.id) {
-                displayJokeSetup(joke);
 
-                answerButton.addEventListener("click", () => {
-                    displayPunchline(joke);
+// let setupHistory;
+// let punchlineHistory;
 
-                    displayedPunchline.textContent = currentPunchline.textContent;
-                    punchlineBox.appendChild(displayedPunchline);
-                });
-            }
-
-            displayedJoke.textContent = currentJoke.textContent;
-            punchlineBox.appendChild(displayedJoke);
-        });
-    });
-});
-
-const currentJoke = document.getElementById("joke-setup");
-const currentPunchline = document.getElementById("joke-punchline");
+const jokeDisplay = document.querySelector(".container-2");
 const generateJokeButton = document.getElementById("generate-joke-button");
-const generateJokeDiv = document.getElementById("generate-joke");
-const answerButton = document.createElement("button");
+const showPunchlineButton = document.getElementById("show-punchline");
 
 const displayedJoke = document.createElement("li");
 const displayedPunchline = document.createElement("li");
 
-const punchlineBox = document.getElementById("punchline-box");
+const jokesBox = document.querySelector(".container-1");
 
-answerButton.textContent = "Show Punchline";
-generateJokeDiv.appendChild(answerButton);
+// const currentPunchline = document.getElementById("joke-punchline");
+// const jokeButtonDiv = document.getElementById("joke-button");
+
+
+fetch("http://localhost:3500/Jokes")
+.then(response => response.json())
+.then(jokes => {
+    generateJokeButton.addEventListener("click", () => {
+        const randomNum = randomId();
+
+        jokes.find(joke => {
+            if (randomNum === joke.id) {
+                displayJokeSetup(joke);
+
+                showPunchlineButton.addEventListener("click", () => {
+                    displayPunchline(joke);
+
+                    displayedPunchline.textContent = jokeDisplay.textContent;
+                    jokesBox.appendChild(displayedPunchline);
+                    // punchlineHistory = displayedPunchline;
+                });
+            }
+
+            displayedJoke.textContent = jokeDisplay.textContent;
+            jokesBox.appendChild(displayedJoke);
+            // setupHistory = displayedJoke;
+        });
+    });
+});
+
 
 
 function randomId() {
-    return Math.ceil(Math.random() * 20);
+    let random = Math.ceil(Math.random() * 20);
+    // console.log(random);
+    return random;
 }
 
 function displayJokeSetup (joke) {
-    currentJoke.textContent = joke.setup;
+    jokeDisplay.textContent = joke.setup;
 }
 
 function displayPunchline(joke) {
-    currentPunchline.textContent = joke.punchline;
+    jokeDisplay.textContent = joke.punchline;
 }
+
+
 
 
 

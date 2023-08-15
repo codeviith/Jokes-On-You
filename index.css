@@ -17,6 +17,15 @@ body h1 {
 
 button{
     font-size: 25px;
+
+}
+
+
+#joke-button{
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 h2{
@@ -30,7 +39,7 @@ h2{
     justify-content: space-around;
     position: relative;
     align-items: stretch;
-}
+} 
   
 .container-1{
     width: 400px;
@@ -39,29 +48,16 @@ h2{
     background-color: white;
     text-align: center;
     align-items: stretch;
-    margin: auto;
 }
 
 .container-2{
     background-color: white;
     text-align: center;
     align-items: stretch;
-    width: 400px;
     align-self: center;
 
 }
-  
-.container-3{
-    width: 400px;
-    min-height: 150px;
-    border: 1px solid black;
-    background-color: white;
-    flex-direction: column;
-    align-self: center;
-    align-items: stretch;
-    text-align: center;
-    margin: auto;
-}
+
 
 form{
    margin-top: 90px;

@@ -12,6 +12,7 @@ const jokesHistory = document.getElementById("joke-container");
 
 let currentJoke;
 
+
 fetch("http://localhost:3500/Jokes")
 .then(response => response.json())
 .then(jokes => {
@@ -30,14 +31,20 @@ fetch("http://localhost:3500/Jokes")
             // setupHistory = displayedJoke;
         });
     });
+    
 
     showPunchlineButton.addEventListener("dblclick", () => {
         displayPunchline(currentJoke);
-
         const jokeHistoryTag = document.createElement("li");
+
         jokeHistoryTag.textContent = displayedJoke.textContent;
 
         jokesHistory.appendChild(jokeHistoryTag);
+
+
+        jokeHistoryTag.addEventListener("mouseover", () => {
+            jokeDisplay.textContent = jokeHistoryTag.textContent
+        })
     });
 });
 

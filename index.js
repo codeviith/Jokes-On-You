@@ -18,18 +18,17 @@ fetch("http://localhost:3500/Jokes")
                 currentJoke = joke;
                 displayJokeSetup(joke);
             }
-            
-            displayedJoke.textContent = jokeDisplay.textContent;
         });
     });
 
     showPunchlineButton.addEventListener("dblclick", () => {
-        displayPunchline (currentJoke);
+        displayPunchline(currentJoke);
 
         const jokeHistoryTag = document.createElement("li");
         jokeHistoryTag.id = currentJoke.id;
 
-        jokeHistoryTag.textContent = displayedJoke.textContent;
+        jokeHistoryTag.textContent = displayJokeSetup(currentJoke);
+        jokeDisplay.textContent = displayPunchline(currentJoke);
         jokesHistory.appendChild(jokeHistoryTag);
 
         jokeHistoryTag.addEventListener("mouseover", () => {
@@ -43,19 +42,15 @@ fetch("http://localhost:3500/Jokes")
     });
 });
 
-
 function randomId() {
     let random = Math.ceil(Math.random() * 35);
     return random;
 }
 
-
 function displayJokeSetup (joke) {
     return jokeDisplay.textContent = joke.setup;
 }
 
-
 function displayPunchline(joke) {
     return jokeDisplay.textContent = joke.punchline;
 }
-

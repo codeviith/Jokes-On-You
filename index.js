@@ -21,6 +21,7 @@ fetch("http://localhost:3500/Jokes")
         });
     });
 
+
     showPunchlineButton.addEventListener("dblclick", () => {
         displayPunchline(currentJoke);
 
@@ -31,14 +32,18 @@ fetch("http://localhost:3500/Jokes")
         jokeDisplay.textContent = displayPunchline(currentJoke);
         jokesHistory.appendChild(jokeHistoryTag);
 
-        jokeHistoryTag.addEventListener("mouseover", () => {
+        jokeHistoryTag.addEventListener("mouseover", (e) => {
+            e.target.style.color = 'green';
             let tagId = jokeHistoryTag.id;
             const foundJoke = jokes.find(joke => {
                 return parseInt(tagId) === joke.id;
             })
-
             jokeDisplay.textContent = foundJoke.punchline;
         })
+
+        jokeHistoryTag.addEventListener("mouseout", (e) => {
+            e.target.style.color = 'black'
+        });
     });
 });
 

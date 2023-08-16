@@ -1,91 +1,93 @@
 body{
-    background-image: URL("https://www.giantfreakinrobot.com/wp-content/uploads/2020/11/minions-1568x1176.jpg");
-
+  background-image: URL("https://www.giantfreakinrobot.com/wp-content/uploads/2020/11/minions-1568x1176.jpg");
 }
 
 body h1 {
-    font-size: 65px;
-    text-align: center;
-    background-color: #0a75bc;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-image: URL("https://www.giantfreakinrobot.com/wp-content/uploads/2020/11/minions-1568x1176.jpg"); */
+  font-size: 65px;
+  text-align: center;
+  background-color: #12f037;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: URL("https://www.giantfreakinrobot.com/wp-content/uploads/2020/11/minions-1568x1176.jpg"); */
+}
 
-}
-  
 #joke-button button{
-    font-size: 75px;
-    border-radius: 8px;
-    border-color: red;
-    border-style: 0.2rem solid;
-    color: white;
-    background-image: URL("https://www.giantfreakinrobot.com/wp-content/uploads/2020/11/minions-1568x1176.jpg");
-    cursor: pointer;
+  font-size: 75px;
+  border-radius: 8px;
+  border-color: red;
+  border-style: 0.2rem solid;
+  color: white;
+  text-shadow: violet;
+  /* background-color: yellow; */
+  cursor: pointer;
 }
-  
+
+#generate-joke-button{
+  background-image: URL("https://pa1.narvii.com/6120/5fa6dda1385c5e6081d313a259188565483c0c6b_hq.gif")
+}
+
 #joke-button{
-    margin-top: 100px;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
 }
-  
+
 #like-prank-button {
-    margin-top: 80px;
-    display: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-    background-color: green;
-    border-radius: 35px;
-    padding: 16px;
-    cursor: pointer;
+  margin-top: 80px;
+  display: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: green;
+  border-radius: 35px;
+  padding: 16px;
+  cursor: pointer;
 }
-  
+
+#joke-container{
+  margin-left: 5px;
+}
+
 #joke-container li{
-    cursor: pointer;
+  cursor: pointer;
+  text-align: left;
 }
-  
 
 #container {
-    border: 3px solid #444;
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    align-items: stretch;
-    background-color: white;
+  border: 3px solid #444;
+  display: flex;
+  /* justify-content: space-around; */
+  position: relative;
+  align-items: stretch;
+  background-color: white;
 } 
-  
-.container-1{
-    width: 400px;
-    min-height: 200px;
-    background-color: white;
-    align-items: stretch;
-    font-size: 25px;
-    text-align: center;
-    margin-left: 5px;
-    font-style: italic;
-}
-  
-.container-2{
-    background-color: white;
-    text-align: center;
-    align-items: stretch;
-    align-self: center;
-    text-align: center;
-    font-size: 50px;
-    margin: 20px;
-  
-}
-  
-text{
-    font-style: normal;
-    text-decoration: underline;
-}
-  
-  
 
-  
+.container-1{
+  /* position: absolute left; */
+  width: 400px;
+  min-height: 200px;
+  background-color: white;
+  align-items: stretch;
+  font-size: 25px;
+  text-align: center;
+  /* margin-left: 5px; */
+  font-style: italic;
+}
+
+.container-2{
+  background-color: white;
+  text-align: center;
+  align-items: stretch;
+  align-self: center;
+  font-size: 55px;
+  /* margin: 20px; */
+}
+
+text{
+  font-style: normal;
+  text-decoration: underline;
+}
+

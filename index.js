@@ -1,8 +1,8 @@
 const jokeDisplay = document.querySelector(".container-2");
 const generateJokeButton = document.getElementById("generate-joke-button");
 const showPunchlineButton = document.getElementById("show-punchline");
-const displayedJoke = document.getElementById("setup");
 const jokesHistory = document.getElementById("joke-container");
+const prankButton = document.getElementById("like-prank-button");
 
 let currentJoke;
 let randomNum;
@@ -41,6 +41,10 @@ fetch("http://localhost:3500/Jokes")
         })
     });
 });
+
+prankButton.addEventListener("click", () => {
+    alert("HAHA JOKES ON YOU! YOU GOT PRANKED");
+})
 
 function randomId() {
     let random = Math.ceil(Math.random() * 35);

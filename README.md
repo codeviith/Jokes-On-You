@@ -8,7 +8,7 @@
 <li>If you missed a particular joke, you can refer back to it by mousing over.</li>
 
 
-# Setup
+## Instructions
 <li>To see a random joke, single click on the "Generate Joke" button.</li>
 
 <li>To see the punchline, double click on the "Show Punchline" button.</li>
@@ -18,5 +18,5 @@
 <li>To view a previous joke, mouseover to the particular joke in the "Joke Hisotry".</li>
 
 
-# Resources
+## Resources
 <li>https://official-joke-api.appspot.com/random_joke</li>

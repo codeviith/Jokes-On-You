@@ -2,7 +2,7 @@
 
 ## Introduction
 
-<li>This website will tell you a random joke.</li>li>
+<li>This website will tell you a random joke.</li>
 <li>Then presents you with the punchline.</li>
 <li>If you like the joke, you can click on the "Like" button.</li>
 <li>If you missed a particular joke, you can refer back to it by mousing over.</li>

@@ -32,7 +32,7 @@ ROFL in no time. But be CAREFUL to not get joked on yourself, in which case the 
 ## SetUp
 
 <li> Begin by opening index.html on the broswer  </li>
-<li> Run  <mark style= "background-color: grey">'json-server --watch jokesonyou.json -p 3500'</mark>  in the terminal</li>
+<li> Run 'json-server --watch jokesonyou.json -p 3500' in the terminal</li>
 
 
 ## Resources

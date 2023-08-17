@@ -26,13 +26,9 @@ ROFL in no time. But be CAREFUL to not get joked on yourself, in which case the 
 ## Instructions
 
 <li>To see a random joke, single click on the "Generate Joke" button.</li>
-
 <li>To see the punchline, double click on the "Show Punchline" button.</li>
-
 <li>To like the joke, click on the "Like" button.</li>
-
 <li>To view a previous joke, mouseover to the particular joke in the "Joke Hisotry".</li>
-
 
 
 

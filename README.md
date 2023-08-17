@@ -2,6 +2,10 @@
 
 ## Introduction
 
+Have you ever been in a social situation where it is the perfect timing to tell a joke but nothing came up in your mind?
+Well fear no more because now, with this website, you'll be able to generate jokes on the fly! You'll have all your friends
+ROFL in no time. But be CAREFUL to not get "joked" on yourself.
+
 <li>This website will tell you a random joke.</li>
 <li>Then presents you with the punchline.</li>
 <li>If you like the joke, you can click on the "Like" button.</li>

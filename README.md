@@ -29,6 +29,11 @@ ROFL in no time. But be CAREFUL to not get joked on yourself, in which case the 
 <li>To view a previous joke, mouseover to the particular joke in the "Joke Hisotry".</li>
 
 
+## SetUp
+
+<li> Begin by opening index.html on the broswer  </li>
+<li> Run <highlight>json-server --watch jokesonyou.json -p 3500</highlight> in the terminal</li>
+
 
 ## Resources
 

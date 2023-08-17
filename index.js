@@ -13,14 +13,13 @@ fetch("http://localhost:3500/Jokes")
     generateJokeButton.addEventListener("click", () => {
         randomNum = randomId();
         
-        jokes.find(joke => {
-            if (randomNum === joke.id) {
-                currentJoke = joke;
-                displayJokeSetup(joke);
-            }
+        const jokeFound = jokes.find(joke => {
+            return randomNum === joke.id;
         });
-    });
 
+        currentJoke = jokeFound;
+        displayJokeSetup(jokeFound);
+    });
 
     showPunchlineButton.addEventListener("dblclick", () => {
         displayPunchline(currentJoke);
@@ -37,19 +36,20 @@ fetch("http://localhost:3500/Jokes")
             let tagId = jokeHistoryTag.id;
             const foundJoke = jokes.find(joke => {
                 return parseInt(tagId) === joke.id;
-            })
+            });
+
             jokeDisplay.textContent = foundJoke.punchline;
-        })
+        });
 
         jokeHistoryTag.addEventListener("mouseout", (e) => {
-            e.target.style.color = 'black'
+            e.target.style.color = 'black';
         });
     });
 });
 
 prankButton.addEventListener("click", () => {
     alert("HAHA JOKES ON YOU! YOU GOT PRANKED");
-})
+});
 
 function randomId() {
     let random = Math.ceil(Math.random() * 35);

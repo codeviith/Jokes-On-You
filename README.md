@@ -16,6 +16,11 @@ ROFL in no time. But be CAREFUL to not get joked on yourself, in which case the 
 <li>If you like the joke, you can click on the "Like" button.</li>
 <li>If you missed a particular joke, you can refer back to it by mousing over.</li>
 
+## SetUp
+
+<li> Begin by opening index.html on the broswer  </li>
+
+<li> Run 'json-server --watch jokesonyou.json -p 3500' in the terminal</li>
 
 
 ## Instructions
@@ -29,10 +34,6 @@ ROFL in no time. But be CAREFUL to not get joked on yourself, in which case the 
 <li>To view a previous joke, mouseover to the particular joke in the "Joke Hisotry".</li>
 
 
-## SetUp
-
-<li> Begin by opening index.html on the broswer  </li>
-<li> Run 'json-server --watch jokesonyou.json -p 3500' in the terminal</li>
 
 
 ## Resources
